@@ -13,7 +13,7 @@ class Boleto {
 		connection.connect();
 		return connection;
 	}
-	// Retorna a lista de carros
+	// Retorna a lista de Boletos
 	static getBoletos(callback) {
 		let connection = Boleto.connect()		
 		let sql = "select * from boleto";
